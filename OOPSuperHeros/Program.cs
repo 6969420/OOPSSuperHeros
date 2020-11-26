@@ -35,7 +35,7 @@ namespace OOPSuperHeros
 
             public void TakeDamage(int damage)
             {
-                if(hp <= 0)
+                if (hp <= 0)
                 {
                     hp = 0;
                 }
@@ -50,6 +50,9 @@ namespace OOPSuperHeros
                 get { return hp; }
             }
 
+            public string Name { 
+                get {return name; }
+            }
         }
 
          static void Main(string[] args)
